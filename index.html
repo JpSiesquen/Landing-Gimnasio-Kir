@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IRON CORE – Gimnasio moderno. Disciplina, energía y transformación real." />
+  <title>IRON CORE | Gimnasio</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="IRON CORE | Gimnasio" />
+  <meta property="og:description" content="Entrenamiento de élite. Resultados reales. Sin excusas. Únete a IRON CORE y forja tu versión más fuerte." />
+  <meta property="og:image" content="assets/images/pesas.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="IRON CORE Gimnasio – Sala de pesas" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="IRON CORE | Gimnasio" />
+  <meta name="twitter:description" content="Entrenamiento de élite. Resultados reales. Sin excusas. Únete a IRON CORE y forja tu versión más fuerte." />
+  <meta name="twitter:image" content="assets/images/pesas.jpg" />
+  <meta name="twitter:image:alt" content="IRON CORE Gimnasio – Sala de pesas" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="navbar__container">
+      <a href="#hero" class="navbar__logo" aria-label="IRON CORE inicio">
+        IRON <span>CORE</span>
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__menu" id="navMenu" role="navigation" aria-label="Menú principal">
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#transformacion">Transformación</a></li>
+          <li><a href="#planes">Planes</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#horarios">Horarios</a></li>
+          <li><a href="#contacto" class="navbar__cta">Únete</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== 1. HERO ========== -->
+    <section class="hero" id="hero" aria-label="Sección principal">
+      <div class="hero__overlay"></div>
+      <div class="hero__content animate-on-scroll">
+        <p class="hero__eyebrow">Bienvenido a IRON CORE</p>
+        <h1 class="hero__title">Forja tu<br /><span>versión más fuerte.</span></h1>
+        <p class="hero__subtitle">Entrenamiento de élite. Resultados reales. Sin excusas.</p>
+        <div class="hero__actions">
+          <a href="#planes" class="btn btn--primary">Empieza hoy</a>
+          <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ========== 2. SERVICIOS ========== -->
+    <section class="servicios section" id="servicios" aria-labelledby="servicios-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <p class="section-eyebrow">Lo que ofrecemos</p>
+          <h2 class="section-title" id="servicios-title">Servicios diseñados<br />para ganar.</h2>
+        </div>
+        <div class="servicios__grid">
+
+          <article class="card animate-on-scroll" tabindex="0">
+            <div class="card__icon" aria-hidden="true">🏋️</div>
+            <h3 class="card__title">Musculación</h3>
+            <p class="card__text">Equipamiento de última generación para construir músculo y fuerza real.</p>
+          </article>
+
+          <article class="card animate-on-scroll" tabindex="0">
+            <div class="card__icon" aria-hidden="true">🥊</div>
+            <h3 class="card__title">Boxeo & MMA</h3>
+            <p class="card__text">Clases de combate que desarrollan disciplina, velocidad y resistencia.</p>
+          </article>
+
+          <article class="card animate-on-scroll" tabindex="0">
+            <div class="card__icon" aria-hidden="true">🔥</div>
+            <h3 class="card__title">HIIT & Cardio</h3>
+            <p class="card__text">Quema grasa al máximo con entrenamientos de alta intensidad.</p>
+          </article>
+
+          <article class="card animate-on-scroll" tabindex="0">
+            <div class="card__icon" aria-hidden="true">🧘</div>
+            <h3 class="card__title">Yoga & Movilidad</h3>
+            <p class="card__text">Recuperación activa y flexibilidad para rendir más cada día.</p>
+          </article>
+
+          <article class="card animate-on-scroll" tabindex="0">
+            <div class="card__icon" aria-hidden="true">🥗</div>
+            <h3 class="card__title">Nutrición</h3>
+            <p class="card__text">Planes nutricionales personalizados para acelerar tus resultados.</p>
+          </article>
+
+          <article class="card animate-on-scroll" tabindex="0">
+            <div class="card__icon" aria-hidden="true">👤</div>
+            <h3 class="card__title">Entrenador Personal</h3>
+            <p class="card__text">Coaching 1 a 1 con profesionales certificados que te llevan al límite.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 3. TRANSFORMACIÓN ========== -->
+    <section class="transformacion section section--dark" id="transformacion" aria-labelledby="transformacion-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <p class="section-eyebrow">Resultados reales</p>
+          <h2 class="section-title" id="transformacion-title">La transformación<br />habla por sí sola.</h2>
+        </div>
+        <div class="transformacion__grid">
+
+          <div class="transformacion__item animate-on-scroll">
+            <div class="transformacion__images">
+              <figure class="transformacion__before">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" alt="Antes del entrenamiento" loading="lazy" />
+                <figcaption>Antes</figcaption>
+              </figure>
+              <figure class="transformacion__after">
+                <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&q=80" alt="Después del entrenamiento" loading="lazy" />
+                <figcaption>Después</figcaption>
+              </figure>
+            </div>
+            <p class="transformacion__name">Carlos M. — <span>6 meses</span></p>
+          </div>
+
+          <div class="transformacion__item animate-on-scroll">
+            <div class="transformacion__images">
+              <figure class="transformacion__before">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80" alt="Antes del entrenamiento" loading="lazy" />
+                <figcaption>Antes</figcaption>
+              </figure>
+              <figure class="transformacion__after">
+                <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&q=80" alt="Después del entrenamiento" loading="lazy" />
+                <figcaption>Después</figcaption>
+              </figure>
+            </div>
+            <p class="transformacion__name">Laura S. — <span>4 meses</span></p>
+          </div>
+
+          <div class="transformacion__item animate-on-scroll">
+            <div class="transformacion__images">
+              <figure class="transformacion__before">
+                <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=400&q=80" alt="Antes del entrenamiento" loading="lazy" />
+                <figcaption>Antes</figcaption>
+              </figure>
+              <figure class="transformacion__after">
+                <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400&q=80" alt="Después del entrenamiento" loading="lazy" />
+                <figcaption>Después</figcaption>
+              </figure>
+            </div>
+            <p class="transformacion__name">Andrés R. — <span>8 meses</span></p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. PLANES ========== -->
+    <section class="planes section" id="planes" aria-labelledby="planes-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <p class="section-eyebrow">Elige tu nivel</p>
+          <h2 class="section-title" id="planes-title">Planes para cada<br />objetivo.</h2>
+        </div>
+        <div class="planes__grid">
+
+          <article class="plan-card animate-on-scroll" aria-label="Plan Básico">
+            <div class="plan-card__header">
+              <h3 class="plan-card__name">Básico</h3>
+              <div class="plan-card__price">
+                <span class="plan-card__currency">$</span>29
+                <span class="plan-card__period">/mes</span>
+              </div>
+            </div>
+            <ul class="plan-card__features" aria-label="Características del plan básico">
+              <li>✓ Acceso a sala de pesas</li>
+              <li>✓ Vestuarios y duchas</li>
+              <li>✓ App de seguimiento</li>
+              <li class="disabled">✗ Clases grupales</li>
+              <li class="disabled">✗ Entrenador personal</li>
+              <li class="disabled">✗ Plan nutricional</li>
+            </ul>
+            <a href="#contacto" class="btn btn--ghost btn--full">Empezar</a>
+          </article>
+
+          <article class="plan-card plan-card--featured animate-on-scroll" aria-label="Plan Estándar (recomendado)">
+            <div class="plan-card__badge">Más popular</div>
+            <div class="plan-card__header">
+              <h3 class="plan-card__name">Estándar</h3>
+              <div class="plan-card__price">
+                <span class="plan-card__currency">$</span>59
+                <span class="plan-card__period">/mes</span>
+              </div>
+            </div>
+            <ul class="plan-card__features" aria-label="Características del plan estándar">
+              <li>✓ Acceso a sala de pesas</li>
+              <li>✓ Vestuarios y duchas</li>
+              <li>✓ App de seguimiento</li>
+              <li>✓ Clases grupales ilimitadas</li>
+              <li>✓ 2 sesiones con entrenador</li>
+              <li class="disabled">✗ Plan nutricional</li>
+            </ul>
+            <a href="#contacto" class="btn btn--primary btn--full">Empezar</a>
+          </article>
+
+          <article class="plan-card animate-on-scroll" aria-label="Plan Premium">
+            <div class="plan-card__header">
+              <h3 class="plan-card__name">Premium</h3>
+              <div class="plan-card__price">
+                <span class="plan-card__currency">$</span>99
+                <span class="plan-card__period">/mes</span>
+              </div>
+            </div>
+            <ul class="plan-card__features" aria-label="Características del plan premium">
+              <li>✓ Acceso a sala de pesas</li>
+              <li>✓ Vestuarios y duchas</li>
+              <li>✓ App de seguimiento</li>
+              <li>✓ Clases grupales ilimitadas</li>
+              <li>✓ Entrenador personal ilimitado</li>
+              <li>✓ Plan nutricional completo</li>
+            </ul>
+            <a href="#contacto" class="btn btn--ghost btn--full">Empezar</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 5. TESTIMONIOS ========== -->
+    <section class="testimonios section section--dark" id="testimonios" aria-labelledby="testimonios-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <p class="section-eyebrow">Lo que dicen</p>
+          <h2 class="section-title" id="testimonios-title">Resultados que<br />no mienten.</h2>
+        </div>
+        <div class="testimonios__grid">
+
+          <blockquote class="testimonio animate-on-scroll">
+            <p class="testimonio__text">"En 3 meses perdí 12 kg y gané más músculo del que tenía en toda mi vida. IRON CORE cambió mi mentalidad."</p>
+            <footer class="testimonio__author">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de Miguel Torres" loading="lazy" />
+              <div>
+                <strong>Miguel Torres</strong>
+                <span>Miembro desde 2023</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonio animate-on-scroll">
+            <p class="testimonio__text">"Los entrenadores son brutales en el buen sentido. Te exigen, te guían y celebran cada logro contigo."</p>
+            <footer class="testimonio__author">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto de Sofía Ramírez" loading="lazy" />
+              <div>
+                <strong>Sofía Ramírez</strong>
+                <span>Miembro desde 2022</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonio animate-on-scroll">
+            <p class="testimonio__text">"El ambiente es diferente. Aquí todos van en serio. Desde el primer día sentí que pertenecía a algo grande."</p>
+            <footer class="testimonio__author">
+              <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Foto de Diego Fuentes" loading="lazy" />
+              <div>
+                <strong>Diego Fuentes</strong>
+                <span>Miembro desde 2024</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6. GALERÍA ========== -->
+    <section class="galeria section" id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <p class="section-eyebrow">Nuestro espacio</p>
+          <h2 class="section-title" id="galeria-title">Donde ocurre<br />la magia.</h2>
+        </div>
+        <div class="galeria__grid">
+          <figure class="galeria__item galeria__item--wide animate-on-scroll">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=80" alt="Sala principal de pesas IRON CORE" loading="lazy" />
+          </figure>
+          <figure class="galeria__item animate-on-scroll">
+            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500&q=80" alt="Zona de cardio" loading="lazy" />
+          </figure>
+          <figure class="galeria__item animate-on-scroll">
+            <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=500&q=80" alt="Clase grupal de entrenamiento" loading="lazy" />
+          </figure>
+          <figure class="galeria__item animate-on-scroll">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&q=80" alt="Entrenamiento con pesas libres" loading="lazy" />
+          </figure>
+          <figure class="galeria__item animate-on-scroll">
+            <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=500&q=80" alt="Zona de boxeo" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 7. HORARIOS + MAPA ========== -->
+    <section class="horarios section section--dark" id="horarios" aria-labelledby="horarios-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <p class="section-eyebrow">Planifica tu semana</p>
+          <h2 class="section-title" id="horarios-title">Horarios y<br />ubicación.</h2>
+        </div>
+        <div class="horarios__layout">
+
+          <div class="horarios__tabla animate-on-scroll">
+            <table aria-label="Horarios de clases semanales">
+              <thead>
+                <tr>
+                  <th scope="col">Clase</th>
+                  <th scope="col">Lun – Vie</th>
+                  <th scope="col">Sáb</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Musculación</td>
+                  <td>06:00 – 22:00</td>
+                  <td>08:00 – 18:00</td>
+                </tr>
+                <tr>
+                  <td>HIIT</td>
+                  <td>07:00 / 18:00</td>
+                  <td>09:00</td>
+                </tr>
+                <tr>
+                  <td>Boxeo</td>
+                  <td>08:00 / 19:00</td>
+                  <td>10:00</td>
+                </tr>
+                <tr>
+                  <td>Yoga</td>
+                  <td>09:00 / 20:00</td>
+                  <td>11:00</td>
+                </tr>
+                <tr>
+                  <td>Entrenador Personal</td>
+                  <td>Con cita previa</td>
+                  <td>Con cita previa</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="horarios__mapa animate-on-scroll">
+            <iframe
+              title="Ubicación de IRON CORE Gimnasio"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6!2d-3.7038!3d40.4168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI1JzAwLjUiTiAzwrA0MicxMy43Ilc!5e0!3m2!1ses!2ses!4v1234567890"
+              width="100%"
+              height="350"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 8. CTA FINAL ========== -->
+    <section class="cta-final section" id="contacto" aria-labelledby="cta-title">
+      <div class="cta-final__overlay"></div>
+      <div class="container">
+        <div class="cta-final__content animate-on-scroll">
+          <p class="section-eyebrow">El momento es ahora</p>
+          <h2 class="cta-final__title" id="cta-title">Deja de esperar.<br /><span>Empieza a transformarte.</span></h2>
+          <p class="cta-final__subtitle">Primera semana gratis. Sin compromisos. Solo resultados.</p>
+          <form class="cta-final__form" novalidate aria-label="Formulario de contacto">
+            <div class="form-group">
+              <label for="nombre" class="sr-only">Tu nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="sr-only">Tu email</label>
+              <input type="email" id="email" name="email" placeholder="Tu email" required autocomplete="email" />
+            </div>
+            <button type="submit" class="btn btn--primary">Quiero mi semana gratis</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <a href="#hero" class="navbar__logo" aria-label="IRON CORE inicio">IRON <span>CORE</span></a>
+          <p>Disciplina. Energía. Transformación.</p>
+          <div class="footer__social" aria-label="Redes sociales">
+            <a href="#" aria-label="Instagram de IRON CORE"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook de IRON CORE"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="YouTube de IRON CORE"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="TikTok de IRON CORE"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <nav class="footer__nav" aria-label="Navegación del footer">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__contact">
+          <h4>Contacto</h4>
+          <address>
+            <p>📍 Calle Fuerza 42, Madrid</p>
+            <p>📞 <a href="tel:+34900000000">+34 900 000 000</a></p>
+            <p>✉️ <a href="mailto:info@ironcore.es">info@ironcore.es</a></p>
+          </address>
+        </div>
+
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 IRON CORE. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="assets/js/script.js" defer></script>
+
+</body>
+</html>

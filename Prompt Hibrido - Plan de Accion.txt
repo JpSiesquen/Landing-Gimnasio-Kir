@@ -1,0 +1,167 @@
+Actúa como un senior frontend developer + UX/UI designer especializado en sitios fitness modernos.
+
+Tu tarea es crear un proyecto web estático completo con estructura profesional, separado en 3 archivos:
+
+- index.html
+- styles.css
+- script.js
+
+NO pongas CSS ni JS dentro del HTML. Todo debe estar correctamente separado, dentro de sus respectivas carpetas.
+
+---
+
+📁 ESTRUCTURA DEL PROYECTO:
+
+/
+├── index.html
+├── styles.css
+└── script.js
+
+---
+
+🔗 CONEXIÓN ENTRE ARCHIVOS (OBLIGATORIO):
+
+En index.html debes incluir:
+
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+
+---
+
+🧠 CONTEXTO DEL PROYECTO:
+
+Marca: IRON CORE  
+Tipo: Gimnasio moderno  
+Público: hombres y mujeres (18–40)  
+Objetivo: atraer clientes nuevos y transmitir disciplina, energía y transformación
+
+La web debe sentirse como una marca real, no plantilla genérica.
+
+---
+
+🎯 DIRECCIÓN DE DISEÑO:
+
+Estética:
+- Oscura
+- Fuerte
+- Energética
+
+Paleta:
+- Negro (#0a0a0a o similar)
+- Gris oscuro
+- Blanco
+- Rojo intenso (acento)
+
+Tipografía:
+- Sans-serif moderna (importada desde Google Fonts)
+
+Sensación:
+- Poder
+- Disciplina
+- Motivación
+
+---
+
+🏗️ PLAN TÉCNICO:
+
+HTML:
+- Estructura semántica (header, main, section, footer)
+- Navegación con anclas internas
+- Uso correcto de clases (naming limpio)
+
+CSS:
+- Variables en :root (colores, spacing)
+- Mobile-first
+- Uso de Flexbox y Grid
+- Espaciado amplio
+- Alto contraste
+- Hover effects (glow rojo sutil)
+
+JS:
+- Scroll suave
+- IntersectionObserver para animaciones
+- Navbar cambia al hacer scroll
+- Microinteracciones (hover dinámico si aplica)
+
+---
+
+🧱 SECCIONES:
+
+1. HERO
+- Imagen fuerte (fitness)
+- Overlay oscuro
+- Headline potente
+- CTA
+
+2. SERVICIOS
+- Tarjetas con hover
+
+3. TRANSFORMACIÓN
+- Antes / después
+
+4. PLANES
+- 3 tarjetas (básico, estándar, premium)
+
+5. TESTIMONIOS
+
+6. GALERÍA
+
+7. HORARIOS + MAPA
+
+8. CTA FINAL
+
+9. FOOTER
+
+---
+
+🖼️ IMÁGENES:
+
+- Usar imágenes reales (fitness, gym)
+- Estilo oscuro, dramático
+- Usar URLs externas
+
+---
+
+🧠 COPY:
+
+- Español 100%
+- Tono directo, motivacional
+- Frases cortas
+- Evitar relleno
+
+---
+
+⚙️ DETALLES PRO:
+
+- Animaciones suaves (fade + translate)
+- Botones con hover glow rojo
+- Tipografía grande en títulos
+- Espaciado consistente
+
+---
+
+🧪 CALIDAD:
+
+- Código limpio y comentado
+- Accesibilidad básica (:focus-visible)
+- Imágenes con loading="lazy"
+- Buen rendimiento
+
+---
+
+📦 ENTREGA (MUY IMPORTANTE):
+
+Devuelve el resultado en 3 bloques separados claramente:
+
+--- index.html ---
+[código]
+
+--- styles.css ---
+[código]
+
+--- script.js ---
+[código]
+
+NO mezclar archivos.
+NO omitir ningún archivo.
+Todo debe funcionar al abrir index.html.
