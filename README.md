@@ -1,10 +1,10 @@
-﻿# IRON CORE
+# IRON CORE
 
 Landing page for a gym brand. Services, membership plans, transformations, testimonials, gallery and schedule, with a lead form CTA.
 
 [![Live demo](https://img.shields.io/badge/demo-vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://landing-gimnasio-kir.vercel.app)
 
-![Desktop hero of IRON CORE](docs/assets/hero-desktop.png)
+![Desktop hero of IRON CORE](docs/assets/hero-desktop-v2.png)
 
 **Demo:** https://landing-gimnasio-kir.vercel.app
 
@@ -17,7 +17,7 @@ Landing page for a gym brand. Services, membership plans, transformations, testi
 
 ## Stack
 
-HTML · CSS · Vanilla JavaScript · Vercel
+HTML, CSS, Vanilla JavaScript, Vercel
 
 ## Run locally
 
